@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "BuildMicroserviceUsingDocker", "BuildMicroserviceUsingDocker\BuildMicroserviceUsingDocker.fsproj", "{A81798A7-62FC-4103-96B5-00D8BF6A45F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A81798A7-62FC-4103-96B5-00D8BF6A45F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A81798A7-62FC-4103-96B5-00D8BF6A45F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A81798A7-62FC-4103-96B5-00D8BF6A45F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A81798A7-62FC-4103-96B5-00D8BF6A45F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B0A70065-4876-4B0D-B73B-EF646C0EC2C4}
+	EndGlobalSection
+EndGlobal

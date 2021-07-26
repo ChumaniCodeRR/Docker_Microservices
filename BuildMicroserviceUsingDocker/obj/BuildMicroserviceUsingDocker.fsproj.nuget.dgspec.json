@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\chuma\\source\\repos\\BuildMicroserviceUsingDocker\\BuildMicroserviceUsingDocker\\BuildMicroserviceUsingDocker.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\chuma\\source\\repos\\BuildMicroserviceUsingDocker\\BuildMicroserviceUsingDocker\\BuildMicroserviceUsingDocker.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\chuma\\source\\repos\\BuildMicroserviceUsingDocker\\BuildMicroserviceUsingDocker\\BuildMicroserviceUsingDocker.fsproj",
+        "projectName": "BuildMicroserviceUsingDocker",
+        "projectPath": "C:\\Users\\chuma\\source\\repos\\BuildMicroserviceUsingDocker\\BuildMicroserviceUsingDocker\\BuildMicroserviceUsingDocker.fsproj",
+        "packagesPath": "C:\\Users\\chuma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\chuma\\source\\repos\\BuildMicroserviceUsingDocker\\BuildMicroserviceUsingDocker\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\chuma\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.10.13, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
